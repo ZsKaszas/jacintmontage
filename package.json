@@ -1,0 +1,24 @@
+{
+  "name": "jacintmontage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.335",
+    "@iconify/tailwind4": "^1.0.6",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "flowbite-svelte": "^1.0.0-next.20",
+    "flowbite-svelte-icons": "^2.1.1",
+    "svelte": "^5.28.1",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  }
+}
