@@ -10,8 +10,10 @@
   <main class="" id="main">
     <Header />
     <SectionWrapper>
-      <div class="flex flex-col items-center justify-center gap-4 text-white">
-        <h1 class="text-7xl text-center">Wo Holz auf<br /> Kunst trifft</h1>
+      <div
+        class="flex flex-col items-center justify-center gap-4 text-white text-center"
+      >
+        <h1 class="text-7xl">Wo Holz auf<br /> Kunst trifft</h1>
         <h4 class="text-3xl">
           Entdecken Sie die Schönheit maßgeschneiderter Tischlerei
         </h4>
@@ -20,7 +22,7 @@
 
     <SectionWrapper>
       <div class="bg-[#271d1d] text-[#f5d196] rounded-lg">
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 sm:grid-cols-2">
           <h2 class="text-4xl p-4">Ein Erbe hochwertiger Tischlerei</h2>
           <p class="text-xl p-4">
             Mit jahrelanger Erfahrung und einer Leidenschaft für Tischlerei
