@@ -2,7 +2,7 @@
   import Logo from "./Logo.svelte";
 </script>
 
-<header class="h-40 md:h-52">
+<header class="h-40 lg:h-52">
   <div
     class="h-full flex justify-between items-center max-w-7xl mx-auto py-4 px-6 lg:p-8"
   >

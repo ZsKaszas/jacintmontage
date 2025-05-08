@@ -2,6 +2,7 @@
   import Header from "./lib/Header.svelte";
   import SectionWrapper from "./lib/SectionWrapper.svelte";
   import Projects from "./lib/Projects.svelte";
+  import WorkDetails from "./lib/WorkDetails.svelte";
   import Footer from "./lib/Footer.svelte";
 </script>
 
@@ -14,26 +15,23 @@
         <h4 class="text-3xl">
           Entdecken Sie die Schönheit maßgeschneiderter Tischlerei
         </h4>
-        <button
-          class="bg-[#f5d196] text-[#271d1d] outline-[#271d1d] outline-2 p-2"
-          >Holen Sie sich ein Angebot</button
-        >
       </div>
     </SectionWrapper>
 
     <SectionWrapper>
-      <div
-        class="flex justify-between gap-4 bg-[#271d1d] text-[#f5d196] rounded-lg"
-      >
-        <h2>Ein Erbe hochwertiger Tischlerei</h2>
-        <p>
-          Mit jahrelanger Erfahrung und einer Leidenschaft für Tischlerei
-          streben wir danach, außergewöhnliche Qualität und persönlichen Service
-          zu bieten. Unser Engagement für Qualität, Liebe zum Detail und
-          Kundenzufriedenheit hebt uns von anderen ab
-        </p>
+      <div class="bg-[#271d1d] text-[#f5d196] rounded-lg">
+        <div class="grid grid-cols-2">
+          <h2 class="text-4xl p-4">Ein Erbe hochwertiger Tischlerei</h2>
+          <p class="text-xl p-4">
+            Mit jahrelanger Erfahrung und einer Leidenschaft für Tischlerei
+            streben wir danach, außergewöhnliche Qualität und persönlichen
+            Service zu bieten. Unser Engagement für Qualität, Liebe zum Detail
+            und Kundenzufriedenheit hebt uns von anderen ab
+          </p>
+        </div>
+        <div class="border-1 border-[#f5d196] mx-6 my-8"></div>
+        <WorkDetails />
       </div>
-      <div class="bg-[#f5d196 h-1"></div>
     </SectionWrapper>
 
     <SectionWrapper>
