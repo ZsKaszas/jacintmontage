@@ -22,10 +22,12 @@
       <div
         class="h-[100vh] flex flex-col items-center justify-center gap-4 text-white text-center"
       >
-        <h1 class="text-4xl sm:text-7xl">Wo Holz auf<br /> Kunst trifft</h1>
-        <h4 class="text-xl sm:text-3xl">
+        <h1 class="text-4xl sm:text-7xl">
+          Wo Holz auf Kunst trifft <br /> Jacint Montage
+        </h1>
+        <h2 class="text-xl sm:text-3xl">
           Entdecken Sie die Schönheit maßgeschneiderter Tischlerei
-        </h4>
+        </h2>
       </div>
     </SectionWrapper>
 
