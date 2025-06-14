@@ -16,6 +16,7 @@
   import project15 from "../assets/project-15.jpg";
   import project16 from "../assets/project-16.jpg";
   import project17 from "../assets/project-17.jpg";
+  import ImageWrapper from "./ImageWrapper.svelte";
 
   let images = [
     { src: project1, alt: "Project 1" },
@@ -40,13 +41,6 @@
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
   {#each images as image}
-    <div class="h-94 md:h-80 lg:h-96 overflow-hidden relative">
-      <img
-        src={image.src}
-        alt={image.alt}
-        class="rounded-lg shadow-lg absolute inset-0 w-full h-full object-cover"
-        loading="lazy"
-      />
-    </div>
+    <ImageWrapper {image} />
   {/each}
 </div>

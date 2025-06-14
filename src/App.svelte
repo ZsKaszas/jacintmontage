@@ -4,17 +4,26 @@
   import Projects from "./lib/Projects.svelte";
   import WorkDetails from "./lib/WorkDetails.svelte";
   import Footer from "./lib/Footer.svelte";
+
+  let scrollPosition, scrollContainer, containerHeight;
 </script>
 
 <div class="main-bg">
-  <main class="" id="main">
-    <Header />
+  <main
+    id="main"
+    bind:this={scrollContainer}
+    on:scroll={() => {
+      containerHeight = scrollContainer.offsetHeight;
+      scrollPosition = scrollContainer.scrollTop;
+    }}
+  >
+    <Header {scrollPosition} heigh={containerHeight} />
     <SectionWrapper>
       <div
-        class="flex flex-col items-center justify-center gap-4 text-white text-center"
+        class="h-[100vh] flex flex-col items-center justify-center gap-4 text-white text-center"
       >
-        <h1 class="text-7xl">Wo Holz auf<br /> Kunst trifft</h1>
-        <h4 class="text-3xl">
+        <h1 class="text-4xl sm:text-7xl">Wo Holz auf<br /> Kunst trifft</h1>
+        <h4 class="text-xl sm:text-3xl">
           Entdecken Sie die Schönheit maßgeschneiderter Tischlerei
         </h4>
       </div>
