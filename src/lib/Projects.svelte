@@ -49,11 +49,11 @@
     { src: project19, alt: "Project 19" },
     { src: project20, alt: "Project 20" },
     { src: project21, alt: "Project 21" },
+    { src: project26, alt: "Project 26" },
     { src: project22, alt: "Project 22" },
     { src: project23, alt: "Project 23" },
     { src: project24, alt: "Project 24" },
-    { src: project25, alt: "Project 25" },
-    { src: project26, alt: "Project 26" },
+    { src: project25, alt: "Project 25" }, 
   ];
 </script>
 
