@@ -16,6 +16,15 @@
   import project15 from "../assets/project-15.jpg";
   import project16 from "../assets/project-16.jpg";
   import project17 from "../assets/project-17.jpg";
+  import project18 from "../assets/project-18.jpg";
+  import project19 from "../assets/project-19.jpg";
+  import project20 from "../assets/project-20.jpg";
+  import project21 from "../assets/project-21.jpg";
+  import project22 from "../assets/project-22.jpg";
+  import project23 from "../assets/project-23.jpg";
+  import project24 from "../assets/project-24.jpg";
+  import project25 from "../assets/project-25.jpg";
+  import project26 from "../assets/project-26.jpg";
   import ImageWrapper from "./ImageWrapper.svelte";
 
   let images = [
@@ -36,6 +45,15 @@
     { src: project15, alt: "Project 15" },
     { src: project16, alt: "Project 16" },
     { src: project17, alt: "Project 17" },
+    { src: project18, alt: "Project 18" },
+    { src: project19, alt: "Project 19" },
+    { src: project20, alt: "Project 20" },
+    { src: project21, alt: "Project 21" },
+    { src: project22, alt: "Project 22" },
+    { src: project23, alt: "Project 23" },
+    { src: project24, alt: "Project 24" },
+    { src: project25, alt: "Project 25" },
+    { src: project26, alt: "Project 26" },
   ];
 </script>
 
